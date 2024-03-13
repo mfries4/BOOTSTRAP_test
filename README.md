@@ -1,7 +1,7 @@
 # Projet Bootstrap
 C'est le projet bootstrap
 
-## Objectif 
+# Objectif 
 Faire un truc de ouf
 
 # Arborescence du projet
