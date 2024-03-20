@@ -7,31 +7,68 @@
 	<meta name="author" content="yn">
 	<meta name="keywords" content="bootstrap">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" type="text/css" href="styles.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossoriggin="anonymous">
 	</head>
 <body>
+	<!-- navbar qui revient à la vertical sur les petits écrans -->
+	<nav class="navbar navbar-expand-sm bg-light">
+		<ul class="navbar-nav">
+			<a class="navbar-brand" href="#"><img src="logo.png" style="width:64px;"></a>
+			<li class="nav-item">
+				<a class="nav-link text-muted" href="#c1">tableau responsive</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-muted" href="#c2">FLEX</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-muted" href="#c3">Images arrondies</a>
+			</li>
+		</ul>
+	</nav>
 	<div class="container-fluid" >
-		<DIV class="row text-centrer">
-			<div class="col-lg-4">
-				<p>Notre club de planche à voile vous accueille dès le mois d'avril.</p>
+		<DIV class="row text-center">
+			<div class="col-lg-4 bg-info border border-dark">
+				<p class="text-muted">Notre club de planche à voile vous accueille dès le mois d'avril.</p>
 			</div>	
-			<div class="col-lg-4">
-				<p>Faites appel à notre société pour les travaux de second oeuvre dans vos locaux professionnels.</p>
+			<div class="col-lg-4 bg-warning border border-dark">
+				<p class="text-muted">Faites appel à notre société pour les travaux de second oeuvre dans vos locaux professionnels.</p>
 			</div>
-			<div class="col-lg-4">
-				<p>Nous organisons vos évènements.</p>
+			<div class="col-lg-4 bg-success border border-dark">
+				<p class="text-muted">Nous organisons vos évènements.</p>
 			</div>
 		</DIV>
-		<DIV class="row text-centrer">
-			<div class="col-lg-8">
-				<p>Notre club de planche à voile vous accueille dès le mois d'avril.</p>
+		<DIV class="row text-center">
+			<div class="col-lg-8 bg-warning border border-dark">
+				<p class="text-muted">Notre entreprise existe depuis 12 ans.</p>
 			</div>	
-			<div class="col-lg-4">
-				<p>Faites appel à notre société pour les travaux de second oeuvre dans vos locaux professionnels.</p>
+			<div class="col-lg-4 bg-info border border-dark">
+				<p class="text-muted">Nos meilleurs commerciaux sont nos clients satisfaits.</p>
 			</div>
-			
+		</DIV>
+		<br>
+		<br>
+		<DIV>	
+			<div class="border border-dark bg-info d-flex justify-content-start">
+				<p class="text-muted">FLEX justif DEBUT</p>
+				<p class="text-muted">FLEX justif DEBUT</p>
+			</div>
+			<div class="border border-dark bg-warning d-flex justify-content-end">
+				<p class="text-muted">FLEX justif FIN</p>
+				<p class="text-muted">FLEX justif FIN</p>
+			</div>
+			<div class="border border-dark bg-secondary d-flex justify-content-center">
+				<p class="text-muted">FLEX justif CENTRé.</p>
+				<p class="text-muted">CENTRé.</p>
+			</div>
+			<div class="border border-dark bg-danger d-flex justify-content-between">
+				<p class="text-muted">FLEX justif ENTRE</p>
+				<p class="text-muted">FLEX justif ENTRE</p>
+			</div>
+			<div class="border border-dark bg-success d-flex justify-content-around">
+				<p class="text-muted">FLEX justif AUTOUR</p>
+				<p class="text-muted">FLEX justif AUTOUR</p>
+			</div>
 		</DIV>
 	</div>
 
